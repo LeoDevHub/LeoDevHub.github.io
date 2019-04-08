@@ -1,0 +1,28 @@
+.w3-bar-item {
+  font-family: "Biryani";
+}
+#nav-item {
+  margin-top: 10px;
+}
+#nav-item:hover {
+  text-decoration: none !important;
+  background: none !important;
+  border-bottom: 3px solid black;
+}
+
+#logo {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  background: none !important;
+}
+#hero-text {
+  font-family: "Biryani" !important;
+  font-size: 60px !important;
+  font-weight: bolder !important;
+  color: white;
+  background-color: black;
+}
