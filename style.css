@@ -1,7 +1,9 @@
 body {
-  font-family: "biryani", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
-
+.nav-item {
+  padding-left: 40px;
+}
 .jumbotron {
   color: white;
   background-image: url("./images/carrots-cucumber-delicious-1640777.jpg");
@@ -12,7 +14,7 @@ body {
 }
 
 .container {
-  margin-top: 10%;
+  margin-top: 7%;
 }
 h1 {
   align-content: center;
