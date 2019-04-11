@@ -20,6 +20,22 @@
       href="https://fonts.googleapis.com/css?family=Rubik"
       rel="stylesheet"
     />
+    <!--SNIPCART IMPORT-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <script
+      src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"
+      data-api-key="YmYxNWVhMzYtMTVhYi00OTQzLTg5MTAtZGMzNzM3MTlhZGJiNjM2ODg5Mjc2OTY1NjQ4MjMw"
+      id="snipcart"
+    ></script>
+
+    <link
+      href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--CUSTOM CSS-->
 
     <link rel="stylesheet" href="Style.css" />
   </head>
@@ -159,7 +175,17 @@
               debitis?
             </p>
             <p>$ 15.00</p>
-            <button class="btn-primary">Order now</button>
+            <button
+              class="snipcart-add-item"
+              data-item-id="1"
+              data-item-name="Product1"
+              data-item-price="15.00"
+              data-item-weight=""
+              data-item-url="https://bettersite.netlify.com/"
+              data-item-description="Product Test"
+            >
+              Buy Now
+            </button>
           </div>
         </div>
         <div class="row">
