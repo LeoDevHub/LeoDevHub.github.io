@@ -2,6 +2,9 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+#navbarNav li {
+  padding: 10px 30px;
+}
 .jumbotron {
   color: white;
   background-image: url("./images/carrots-cucumber-delicious-1640777.jpg");
