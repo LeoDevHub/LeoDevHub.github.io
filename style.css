@@ -31,3 +31,10 @@ h1 span {
 p span {
   background: black;
 }
+.snipcart-add-item {
+  background: Black;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
